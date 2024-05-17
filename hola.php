@@ -1,2 +1,2 @@
 <?php
-echo "Hola Mundo Fernando Ávila Portillo\n";
+@print "Hola Fernando Avila Portillo {$argv[1]}\n";
