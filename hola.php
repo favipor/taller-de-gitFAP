@@ -1,3 +1,5 @@
 <?php
+// Autor: Fernando Avila Portillo <fernandoavipo@gmail.com>
+// El nombre por defecto es Mundo
 $nombre = isset($argv[1]) ? $argv[1] : "Mundo";
-@print "Hola, Fernando Avila Portillo {$nombre}\n";
+@print "Hola, {$nombre}\n";
